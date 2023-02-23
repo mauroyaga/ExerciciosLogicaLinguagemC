@@ -22,7 +22,7 @@ main(){
   {
        /*Variaveis que vão receber os numeros inseridos pelo usuario */ 
 
-      float a = 0,                  
+      float a = 0,                                
             b = 0;
 
       char i;                                                        /*Variavel que recebera a opção de continuar ou sair*/
@@ -35,7 +35,7 @@ main(){
       printf("Digite o segundo numero:\n");
       scanf("%f", &b);
 
-      maiormenor(a,b);                                                   /*Chamada da função que ira comparar os números*/
+      maiormenor(a,b);                                                   /*Chamada da função com os parametros de entrada que ira comparar os números*/
       
 
       /*Entrada e processamento da opção de sair ou continuar do usuaario*/
